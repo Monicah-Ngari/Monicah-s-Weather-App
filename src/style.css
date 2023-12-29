@@ -9,8 +9,8 @@ a {
 
 .weather-app {
   background-color: #ffe4c4;
+  width: 100%;
   max-width: 600px;
-  max-height: 800px;
   margin: 47px auto;
   padding: 30px;
   box-shadow: 0 30px 50px #f0f0f0;
@@ -54,7 +54,7 @@ main {
 }
 
 footer {
-  border-top: 1px #cfdc1401 solid;
+  border-top: 1px hsla(64, 81%, 43%, 0.004) solid;
   padding: 0 28px 0 0;
   text-align: center;
   font-size: 16px;
