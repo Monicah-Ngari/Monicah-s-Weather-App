@@ -27,7 +27,11 @@ header {
 
 .weather-data {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.weather-temp {
+  display: flex;
 }
 
 main {
@@ -54,7 +58,7 @@ main {
 
 footer {
   border-top: 1px #ffe4c4 solid;
-  /* padding: 28px; */
+  padding: 28px;
   text-align: center;
   font-size: 16px;
   font-weight: 480;
