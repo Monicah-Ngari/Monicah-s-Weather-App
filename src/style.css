@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00ffff;
+  color: hsl(307, 100%, 50%);
 }
 
 .weather-app {
@@ -54,7 +54,7 @@ main {
 
 footer {
   border-top: 1px #ffe4c4 solid;
-  padding: 28px;
+  /* padding: 28px; */
   text-align: center;
   font-size: 16px;
   font-weight: 480;
