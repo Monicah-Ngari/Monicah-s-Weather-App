@@ -37,7 +37,7 @@ main {
 .search-form-input {
   background-color: #00fff6;
   border: none;
-  border-radius: 8 px;
+  border-radius: 8px;
   width: 80%;
   padding: 20px 25px;
   font-size: 18px;
@@ -54,7 +54,7 @@ main {
 
 footer {
   border-top: 1px hsla(64, 81%, 43%, 0.004) solid;
-  padding: 0 28px 0 0;
+  padding: 28px;
   text-align: center;
   font-size: 16px;
   font-weight: 480;
