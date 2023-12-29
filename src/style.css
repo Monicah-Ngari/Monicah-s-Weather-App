@@ -35,7 +35,7 @@ main {
 }
 
 .search-form-input {
-  background-color: 00fff6;
+  background-color: #00fff6;
   border: none;
   border-radius: 8 px;
   width: 80%;
@@ -44,7 +44,7 @@ main {
 }
 
 .search-form-submit {
-  background-color: #cfdc1401;
+  background-color: #00fff6;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
