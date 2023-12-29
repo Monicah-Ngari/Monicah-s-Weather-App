@@ -53,7 +53,7 @@ main {
 }
 
 footer {
-  border-top: 1px hsla(64, 81%, 43%, 0.004) solid;
+  border-top: 1px #ffe4c4 solid;
   padding: 28px;
   text-align: center;
   font-size: 16px;
