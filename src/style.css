@@ -21,7 +21,7 @@ a {
 }
 
 .weather-city {
-  font: 80px;
+  /* font: 80px; */
   position: relative;
   top: 20px;
   right: 20px;
