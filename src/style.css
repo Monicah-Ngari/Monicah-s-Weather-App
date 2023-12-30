@@ -11,7 +11,7 @@ a {
   background-color: #ffe4c4;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 47px auto;
   padding: 30px;
   /* box-shadow: 0 30px #f0e2d0; */
 }
@@ -75,5 +75,5 @@ main {
   font-weight: 480;
   color: rgba (0 0 0 0.6);
   background-color: #ffe4c4;
-  margin: 47px auto;
+  margin: 0 auto;
 }
