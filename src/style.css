@@ -56,6 +56,23 @@ main {
   border-radius: 6px;
 }
 
+.weather-icon {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.weather-current {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.weather-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+}
+
 /* footer {
   border-top: 1px #ffe4c4 solid;
   padding: 28px;
