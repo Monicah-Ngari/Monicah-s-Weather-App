@@ -56,7 +56,7 @@ main {
   border-radius: 6px;
 }
 
-.weather-icon {
+/* .weather-icon {
   font-size: 40px;
   margin-top: 20px;
 }
@@ -70,8 +70,8 @@ main {
 .weather-unit {
   margin-top: 16px;
   font-size: 28px;
-}
-}
+} */
+
 
 /* footer {
   border-top: 1px #ffe4c4 solid;
