@@ -16,7 +16,7 @@ a {
   margin: 47px auto;
   padding: 30px;
   box-shadow: 0 30px #f0e2d0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .weather-city {
@@ -64,7 +64,7 @@ main {
 .weather-icon {
   font-size: 40px;
   margin-top: 20px;
-  max-width: 768px
+  /* max-width: 768px */
 }
 
 .weather-current {
