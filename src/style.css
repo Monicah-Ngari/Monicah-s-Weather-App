@@ -23,7 +23,7 @@ a {
 .weather-city {
   position: relative;
   top: 20px;
-  left: 50px;
+  left: 0px;
   width: 100px;
   height: 100px;
 }
