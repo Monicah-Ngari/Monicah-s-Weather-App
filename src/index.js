@@ -6,4 +6,4 @@ function myCitty(event) {
 }
 
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", myCitty);
+searchForm.addEventListener("onClick", myCitty);
