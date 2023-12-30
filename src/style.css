@@ -11,7 +11,8 @@ a {
 
 .weather-app {
   background-color: #ffe4c4;
-  /* width: 100%; */
+  width: 100%;
+  /* max-width: 600px; */
   height: 80vh;
   margin: 47px auto;
   padding: 30px;
@@ -34,7 +35,6 @@ header {
 
 .weather-temp {
   display: flex;
-
 }
 
 main {
@@ -75,10 +75,21 @@ main {
   font-size: 28px;
 }
 
+
+/* footer {
+  border-top: 1px #ffe4c4 solid;
+  padding: 28px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 480;
+  color: rgba (0 0 0 0.6);
+  background-color: #ffe4c4;
+} */
 .weather-details {
   border-top: 1px #ffe4c4 solid;
   width: 100%;
-  padding: 28px;
+  /* max-width: 600px;
+  padding: 28px; */
   text-align: center;
   font-size: 16px;
   font-weight: 480;
