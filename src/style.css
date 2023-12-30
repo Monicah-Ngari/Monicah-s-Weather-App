@@ -11,12 +11,11 @@ a {
 
 .weather-app {
   background-color: #ffe4c4;
-  width: 100%;
+  /* width: 100%; */
   height: 80vh;
   margin: 47px auto;
   padding: 30px;
   box-shadow: 0 30px #f0e2d0;
-  /* margin-bottom: 20px; */
 }
 
 .weather-city {
@@ -35,8 +34,7 @@ header {
 
 .weather-temp {
   display: flex;
-  /* justify-content: space-between;
-  /* flex-direction: column; */
+
 }
 
 main {
@@ -78,21 +76,10 @@ main {
   font-size: 28px;
 }
 
-
-/* footer {
-  border-top: 1px #ffe4c4 solid;
-  padding: 28px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 480;
-  color: rgba (0 0 0 0.6);
-  background-color: #ffe4c4;
-} */
 .weather-details {
   border-top: 1px #ffe4c4 solid;
   width: 100%;
-  /* max-width: 600px;
-  padding: 28px; */
+  padding: 28px;
   text-align: center;
   font-size: 16px;
   font-weight: 480;
