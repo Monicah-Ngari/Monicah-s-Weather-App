@@ -12,11 +12,11 @@ a {
 .weather-app {
   background-color: #ffe4c4;
   width: 100%;
-  /* max-width: 600px; */
   height: 80vh;
   margin: 47px auto;
   padding: 30px;
   box-shadow: 0 30px #f0e2d0;
+  margin-bottom: 20px;
 }
 
 .weather-city {
@@ -35,6 +35,8 @@ header {
 
 .weather-temp {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 main {
