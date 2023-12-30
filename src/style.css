@@ -12,7 +12,6 @@ a {
 .weather-app {
   background-color: #ffe4c4;
   width: 100%;
-  /* max-width: 600px; */
   width: 600px;
   height: 80vh;
   margin: 47px auto;
@@ -21,7 +20,6 @@ a {
 }
 
 .weather-city {
-  /* font: 80px; */
   position: relative;
   top: 20px;
   right: 20px;
@@ -82,21 +80,9 @@ main {
   font-size: 28px;
 }
 
-
-/* footer {
-  border-top: 1px #ffe4c4 solid;
-  padding: 28px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 480;
-  color: rgba (0 0 0 0.6);
-  background-color: #ffe4c4;
-} */
 .weather-details {
   border-top: 1px #ffe4c4 solid;
   width: 100%;
-  /* max-width: 600px;
-  padding: 28px; */
   text-align: center;
   font-size: 16px;
   font-weight: 480;
