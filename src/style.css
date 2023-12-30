@@ -85,8 +85,8 @@ main {
 .weather-details {
   border-top: 1px #ffe4c4 solid;
   width: 100%;
-  max-width: 600px;
-  padding: 28px;
+  /* max-width: 600px;
+  padding: 28px; */
   text-align: center;
   font-size: 16px;
   font-weight: 480;
