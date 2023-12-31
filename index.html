@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   <title>Monicah App</title>
 </head>
 
@@ -21,15 +22,15 @@
     </header>
     <main>
       <div class="weather-data">
-        <h1 class="weather-city" id="weather-city"> Nairobi</h1>
+        <h1 class="city" id="city"> Nairobi</h1>
         <p>
           Teusday 12:30, scattered clouds <br />
           Humidity <strong> 66%</strong> , Wind Speed <strong>2.8km/h</strong>
         </p>
-        <div class="weather-temp">
-          <div class="weather-icon"> 🌤️ </div>
-          <div class="weather-current"> 12 </div>
-          <div class="weather-unit"> °C </div>
+        <div class="weather-temp" id="weather-temp">
+          <div class="weather-icon" id="weather-icon"> 🌤️ </div>
+          <div class="current-temp" id="current-temp"> 12 </div>
+          <div class="weather-unit" id="weather-unit"> °C </div>
         </div>
 
 
