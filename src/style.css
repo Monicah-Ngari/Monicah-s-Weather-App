@@ -19,12 +19,13 @@ a {
   box-shadow: 0 30px #f0e2d0;
 }
 
-.weather-city {
+.city {
   position: relative;
   top: 20px;
   right: 20px;
   width: 100px;
   height: 100px;
+  font-weight: bold;
 }
 
 header {
