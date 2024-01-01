@@ -21,3 +21,5 @@ function handleSearchSubmit(event) {
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSearchSubmit);
+
+searchCity("Nairobi");
