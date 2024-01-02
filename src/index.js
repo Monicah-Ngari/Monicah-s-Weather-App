@@ -3,10 +3,10 @@ function refreshWeather(response) {
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#city");
   let cloudDesc = document.querySelector("#descrp");
-  let myClimate = document.querySelector("#climate");
+  let currentHumidity = document.querySelector("#climate");
 
   cloudDesc.innerHTML = response.data.condition.description;
-  myClimate.innerHTML = `${response.data.temperature.humidity}%`;
+  currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
   console.log(response.data);
   cityElement.innerHTML = response.data.city;
   cityTempElement.innerHTML = Math.round(temperature);
