@@ -5,7 +5,7 @@ function refreshWeather(response) {
   let cloudDesc = document.querySelector(".descrp");
   let myClimate = document.querySelector(".climate");
 
-  cloudDesc.innerHTML = response.data.condition.description;
+  cloudDesc.innerHTML = response.data.city.condition.description;
   myClimate.innnerHTML = response.data.temperature.humidity;
   console.log(response.data);
   cityElement.innerHTML = response.data.city;
