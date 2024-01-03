@@ -7,6 +7,7 @@ function refreshWeather(response) {
   let windSpeed = document.querySelector("#wind");
   let currentDay = document.querySelector("#current-time");
   let date = new Date(response.data.time * 1000);
+  let icon = document.querySelector("#weather-icon");
 
   console.log(response.data);
 
@@ -16,6 +17,7 @@ function refreshWeather(response) {
   currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeed.innerHTML = `${response.data.wind.speed}km/h`;
   currentDay.innerHTML = currentDate(date);
+  icon.innerHTML = response.data.condition.icon;
 }
 
 function currentDate(date) {
