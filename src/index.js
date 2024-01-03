@@ -17,6 +17,7 @@ function refreshWeather(response) {
   windSpeed.innerHTML = `${response.data.wind.speed}km/h`;
   currentDay.innerHTML = currentDate(date);
 }
+
 function currentDate(date) {
   let minutes = date.getMinutes();
   let hours = date.getHours();
@@ -29,13 +30,14 @@ function currentDate(date) {
     "Friday",
     "Saturday",
   ];
-}
-let day = days[date.getDay()];
-if (minutes > 10) {
-  minutes = `0${minutes}`;
-}
 
-return `${day} ${hours} :${minutes}`;
+  let day = days[date.getDay()];
+  if (minutes > 10) {
+    minutes = `0${minutes}`;
+  }
+
+  return `${day} ${hours} :${minutes}`;
+}
 
 function searchCity(city) {
   let apiKey = "1a2a473db97faf41f0088oe8t98271ff";
