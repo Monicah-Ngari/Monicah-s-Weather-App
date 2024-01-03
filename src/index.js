@@ -17,7 +17,7 @@ function refreshWeather(response) {
   currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeed.innerHTML = `${response.data.wind.speed}km/h`;
   currentDay.innerHTML = currentDate(date);
-  icon.innerHTML = response.data.condition.icon;
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}"`;
 }
 
 function currentDate(date) {
