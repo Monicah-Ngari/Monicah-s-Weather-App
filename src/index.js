@@ -31,7 +31,11 @@ function currentDate(date) {
   ];
 }
 let day = days[date.getDay()];
-return `${day} ${hours} ${minutes}`;
+if (minutes > 10) {
+  minutes = `0${minutes}`;
+}
+
+return `${day} ${hours} :${minutes}`;
 
 function searchCity(city) {
   let apiKey = "1a2a473db97faf41f0088oe8t98271ff";
