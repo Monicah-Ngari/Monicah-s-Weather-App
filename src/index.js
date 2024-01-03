@@ -6,7 +6,7 @@ function refreshWeather(response) {
   let currentHumidity = document.querySelector("#climate");
   let windSpeed = document.querySelector("#wind");
   let currentDay = document.querySelector("#current-time");
-  let date = new date(response.time * 1000);
+  let date = new Date(response.time * 1000);
 
   console.log(response.data);
 
